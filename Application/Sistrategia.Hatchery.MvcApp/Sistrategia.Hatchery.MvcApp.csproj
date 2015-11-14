@@ -158,8 +158,15 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\site.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
     <None Include="Content\site.less" />
+    <Content Include="Content\site.css" />
+    <Content Include="Content\site.min.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.woff2" />
@@ -239,6 +246,7 @@
     <Content Include="Content\bootstrap\alerts.less" />
     <Content Include="Gruntfile.js" />
     <Content Include="package.json" />
+    <Content Include="Content\site.min.css.map" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
