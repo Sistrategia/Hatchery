@@ -19,6 +19,12 @@ namespace Sistrategia.Hatchery.MvcApp
                       //"~/Content/bootstrap.css",
                       "~/Content/site.css"));
 
+            bundles.Add(new StyleBundle("~/Content/cover").Include(
+                "~/Content/bootstrap.css",
+                "~/Content/cover.css"
+                ));
+            
+
             BundleTable.EnableOptimizations = false;
         }
     }
