@@ -1,6 +1,7 @@
 ﻿ body{
      font-family:'Open Sans', 'Segoe UI','Helvetica Neue LT Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
       margin:0;
+      background-color:black;
     }
 
     .wrapper {
@@ -11,7 +12,11 @@
 
     .bg-img {
       position: relative;
-      min-height:740px;background-image:url('https://sistrategiadrive.blob.core.windows.net/wwwroot/5698930519201440.jpg')
+      min-height:740px;background-image:url('https://sistrategiadrive.blob.core.windows.net/wwwroot/5698930519201440.jpg');
+      background-repeat:no-repeat;
+      background-position-x:center;
+      background-size:cover;
+      background-position:center;      
     }
 
      .cover-header {
