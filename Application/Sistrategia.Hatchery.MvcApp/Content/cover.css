@@ -14,9 +14,21 @@
       position: relative;
       min-height:740px;background-image:url('https://sistrategiadrive.blob.core.windows.net/wwwroot/5698930519201440.jpg');
       background-repeat:no-repeat;
+      background-position-x:left;
+      background-position-y:top;
+      background-size:unset;
+      background-size:auto;
+      /*background-position:center;*/      
+    }
+
+    .bg-img2 {
+      position: relative;
+      min-height:740px;background-image:url('https://sistrategiadrive.blob.core.windows.net/wwwroot/5698930519201440.jpg');
+      background-repeat:no-repeat;
       background-position-x:center;
-      background-size:cover;
-      background-position:center;      
+      background-position-y:top;
+      background-size:cover;      
+      background-position:center;
     }
 
      .cover-header {

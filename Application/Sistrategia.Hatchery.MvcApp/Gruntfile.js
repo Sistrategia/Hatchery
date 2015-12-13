@@ -12,7 +12,7 @@
                     ]
                 },
                 files: {
-                    'Content/bootstrap.css': 'Content/bootstrap/bootstrap.less',
+                    'Content/bootstrap.css': 'Content/bootstrap.less',
                     'Content/site.css': 'Content/site.less',
                 }
             },
@@ -26,7 +26,7 @@
                     ]
                 },
                 files: {
-                    'Content/bootstrap.min.css': 'Content/bootstrap/bootstrap.less',
+                    'Content/bootstrap.min.css': 'Content/bootstrap.less',
                     'Content/site.min.css': 'Content/site.less',
                 }
             }
