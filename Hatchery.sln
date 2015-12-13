@@ -1,13 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{BAB800E7-DFD4-4D09-9E4F-28B85DFB43AD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{488ADDAB-EA96-490F-8BB4-DA219CABD136}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistrategia.Hatchery.MvcApp", "Application\Sistrategia.Hatchery.MvcApp\Sistrategia.Hatchery.MvcApp.csproj", "{6419B5DE-3A8C-4681-B1C0-4AEE0E8AB467}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistrategia.Core", "Framework\Sistrategia.Core\Sistrategia.Core.csproj", "{F60A2C3D-6191-4470-9E37-665EB05CABB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4FAF9BC5-8CD8-46C7-BA5B-5C7C9F1A3B26}"
+	ProjectSection(SolutionItems) = preProject
+		WebEssentials-Settings.json = WebEssentials-Settings.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,11 +26,16 @@ Global
 		{6419B5DE-3A8C-4681-B1C0-4AEE0E8AB467}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6419B5DE-3A8C-4681-B1C0-4AEE0E8AB467}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6419B5DE-3A8C-4681-B1C0-4AEE0E8AB467}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F60A2C3D-6191-4470-9E37-665EB05CABB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F60A2C3D-6191-4470-9E37-665EB05CABB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F60A2C3D-6191-4470-9E37-665EB05CABB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F60A2C3D-6191-4470-9E37-665EB05CABB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6419B5DE-3A8C-4681-B1C0-4AEE0E8AB467} = {BAB800E7-DFD4-4D09-9E4F-28B85DFB43AD}
+		{F60A2C3D-6191-4470-9E37-665EB05CABB2} = {488ADDAB-EA96-490F-8BB4-DA219CABD136}
 	EndGlobalSection
 EndGlobal

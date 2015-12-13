@@ -13,19 +13,22 @@ namespace Sistrategia.Hatchery.MvcApp
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                      "~/Scripts/bootstrap.js",
-                      "~/Scripts/respond.js"));
+                        "~/Scripts/bootstrap.js",
+                        "~/Scripts/respond.js"));
+            bundles.Add(new StyleBundle("~/Content/bootstraponly").Include(
+                        "~/Content/bootstrap.css"
+                        ));
+
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      //"~/Content/bootstrap.css",
+                      "~/Content/bootstrap.css",
                       "~/Content/site.css"));
 
             bundles.Add(new StyleBundle("~/Content/cover").Include(
                 "~/Content/bootstrap.css",
                 "~/Content/cover.css"
-                ));
-            
+                ));            
 
-            BundleTable.EnableOptimizations = false;
+            BundleTable.EnableOptimizations = true;
         }
     }
 }
