@@ -8,15 +8,11 @@ namespace Hatchery.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index() {
-            // ViewBag.Title = "Home Page";
-
+        public ActionResult Index() {            
             if (!Request.IsAuthenticated) {
                 return RedirectToAction("Welcome");
             }
-
             return RedirectToAction("Welcome");
-
             //return View();
         }
 
